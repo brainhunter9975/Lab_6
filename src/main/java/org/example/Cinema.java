@@ -11,7 +11,7 @@ public class Cinema {
         initializeSeats();
     }
 
-    private void initializeSeats() {
+    public void initializeSeats() {
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 10; j++) {
                 for (int k = 0; k < 20; k++) {
@@ -95,5 +95,8 @@ public class Cinema {
         } else {
             System.out.println("Доступні місця відсутні для " + numSeats + " місць.");
         }
+    }
+    public int getSeatState(int hallNumber, int row, int seatNumber) {
+        return seats[hallNumber - 1][row - 1][seatNumber - 1];
     }
 }
