@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0eb74d75-00a3-4fd1-9e60-acc5a014fe8e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0eb74d75-00a3-4fd1-9e60-acc5a014fe8e" name="Changes" comment="v 0.3 Setting up initial methods for class Main:&#10;main for user interaction with program,&#10;bookSeats for book seat,&#10;cancelBooking for cancel book,&#10;checkAvailability for checking if available to book,&#10;printSeatingArrangement for print seats map of hall" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,17 +46,37 @@
       <option name="presentableId" value="Default" />
       <updated>1701260125289</updated>
     </task>
+    <task id="LOCAL-00001" summary="v 0.1 Create additional class Cinema">
+      <option name="closed" value="true" />
+      <created>1701260708303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701260708303</updated>
+    </task>
+    <task id="LOCAL-00002" summary="v 0.2 Setting up initial methods for class Cinema:&#10;initializeSeats for initialize seats,&#10;bookSeats for mark booked seats,&#10;cancelBooking for cancel booking,&#10;checkAvailability to check if available to book,&#10;printSeatingArrangement to output map of seats">
+      <option name="closed" value="true" />
+      <created>1701261067706</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701261067706</updated>
+    </task>
+    <task id="LOCAL-00003" summary="v 0.3 Setting up initial methods for class Main:&#10;main for user interaction with program,&#10;bookSeats for book seat,&#10;cancelBooking for cancel book,&#10;checkAvailability for checking if available to book,&#10;printSeatingArrangement for print seats map of hall">
+      <option name="closed" value="true" />
+      <created>1701261540651</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701261540651</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v 0.1 Create additional class Cinema" />
+    <MESSAGE value="v 0.2 Setting up initial methods for class Cinema:&#10;initializeSeats for initialize seats,&#10;bookSeats for mark booked seats,&#10;cancelBooking for cancel booking,&#10;checkAvailability to check if available to book,&#10;printSeatingArrangement to output map of seats" />
+    <MESSAGE value="v 0.3 Setting up initial methods for class Main:&#10;main for user interaction with program,&#10;bookSeats for book seat,&#10;cancelBooking for cancel book,&#10;checkAvailability for checking if available to book,&#10;printSeatingArrangement for print seats map of hall" />
+    <option name="LAST_COMMIT_MESSAGE" value="v 0.3 Setting up initial methods for class Main:&#10;main for user interaction with program,&#10;bookSeats for book seat,&#10;cancelBooking for cancel book,&#10;checkAvailability for checking if available to book,&#10;printSeatingArrangement for print seats map of hall" />
   </component>
 </project>
