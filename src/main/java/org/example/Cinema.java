@@ -1,5 +1,8 @@
 package org.example;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Cinema {
     private int[][][] seats;
 
@@ -54,6 +57,43 @@ public class Cinema {
                 System.out.print(seats[hallNumber - 1][i][j] + " "); // Друк схеми розміщення місць
             }
             System.out.println();
+        }
+    }
+    public List<Integer> findBestAvailable(int hallNumber, int numSeats) {
+        List<Integer> bestSeats = new ArrayList<>();
+        int consecutiveSeats = 0;
+        int startRow = 0;
+
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 20; j++) {
+                if (seats[hallNumber - 1][i][j] == 0) {
+                    consecutiveSeats++;
+                    if (consecutiveSeats == 1) {
+                        startRow = i; // запам'ятовуємо номер першого ряду в послідовності вільних місць
+                    }
+                    if (consecutiveSeats == numSeats) {
+                        for (int k = j - numSeats + 1; k <= j; k++) {
+                            bestSeats.add((startRow + 1) * 100 + k + 1); // додаємо місця в форматі "ряд * 100 + номер місця"
+                        }
+                        return bestSeats; // повертаємо список знайдених послідовних місць
+                    }
+                } else {
+                    consecutiveSeats = 0;
+                }
+            }
+        }
+        return bestSeats; // повертаємо пустий список, якщо немає достатньої кількості послідовних місць
+    }
+
+    public void autoBook(int hallNumber, int numSeats) {
+        List<Integer> bestSeats = findBestAvailable(hallNumber, numSeats);
+        if (!bestSeats.isEmpty()) {
+            int row = bestSeats.get(0) / 100;
+            int[] seatsToBook = bestSeats.stream().mapToInt(i -> i % 100).toArray();
+            bookSeats(hallNumber, row, seatsToBook);
+            System.out.println("Місця успішно заброньовані: " + bestSeats);
+        } else {
+            System.out.println("Доступні місця відсутні для " + numSeats + " місць.");
         }
     }
 }

@@ -15,7 +15,8 @@ public class Main {
             System.out.println("2. Скасування бронювання");
             System.out.println("3. Перевірка доступності місць");
             System.out.println("4. Друк схеми розміщення місць");
-            System.out.println("5. Вихід");
+            System.out.println("5. Автоматичне бронювання");
+            System.out.println("6. Вихід");
 
             System.out.print("Виберіть опцію: ");
             int choice = scanner.nextInt();
@@ -34,6 +35,9 @@ public class Main {
                     printSeatingArrangement(cinema, scanner);
                     break;
                 case 5:
+                    autoBookSeats(cinema, scanner);
+                    break;
+                case 6:
                     scanner.close();
                     System.exit(0);
                 default:
@@ -41,7 +45,14 @@ public class Main {
             }
         }
     }
+    private static void autoBookSeats(Cinema cinema, Scanner scanner) {
+        System.out.print("Номер залу: ");
+        int hallNumber = scanner.nextInt();
+        System.out.print("Кількість місць для автоматичного бронювання: ");
+        int numSeats = scanner.nextInt();
 
+        cinema.autoBook(hallNumber, numSeats);
+    }
     private static void bookSeats(Cinema cinema, Scanner scanner) {
         System.out.print("Номер залу: ");
         int hallNumber = scanner.nextInt();
