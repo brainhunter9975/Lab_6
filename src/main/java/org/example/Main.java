@@ -47,6 +47,7 @@ public class Main {
     }
     private static void autoBookSeats(Cinema cinema, Scanner scanner) {
         System.out.print("Номер залу: ");
+
         int hallNumber = scanner.nextInt();
         System.out.print("Кількість місць для автоматичного бронювання: ");
         int numSeats = scanner.nextInt();
