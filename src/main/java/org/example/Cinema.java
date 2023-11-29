@@ -48,7 +48,7 @@ public class Cinema {
     }
 
     public void printSeatingArrangement(int hallNumber) {
-        System.out.println("Seating Arrangement for Hall " + hallNumber);
+        System.out.println("Схема роміщення місць в залі № " + hallNumber);
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 20; j++) {
                 System.out.print(seats[hallNumber - 1][i][j] + " "); // Друк схеми розміщення місць
