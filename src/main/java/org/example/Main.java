@@ -45,7 +45,7 @@ public class Main {
             }
         }
     }
-    private static void autoBookSeats(Cinema cinema, Scanner scanner) {
+    static void autoBookSeats(Cinema cinema, Scanner scanner) {
         System.out.print("Номер залу: ");
 
         int hallNumber = scanner.nextInt();
@@ -54,7 +54,7 @@ public class Main {
 
         cinema.autoBook(hallNumber, numSeats);
     }
-    private static void bookSeats(Cinema cinema, Scanner scanner) {
+    static void bookSeats(Cinema cinema, Scanner scanner) {
         System.out.print("Номер залу: ");
         int hallNumber = scanner.nextInt();
         System.out.print("Номер ряду: ");
@@ -72,7 +72,7 @@ public class Main {
         System.out.println("Місця успішно заброньовані!");
     }
 
-    private static void cancelBooking(Cinema cinema, Scanner scanner) {
+    static void cancelBooking(Cinema cinema, Scanner scanner) {
         System.out.print("Номер залу: ");
         int hallNumber = scanner.nextInt();
         System.out.print("Номер ряду: ");
@@ -90,7 +90,7 @@ public class Main {
         System.out.println("Бронювання скасовано!");
     }
 
-    private static void checkAvailability(Cinema cinema, Scanner scanner) {
+    static void checkAvailability(Cinema cinema, Scanner scanner) {
         System.out.print("Номер залу: ");
         int hallNumber = scanner.nextInt();
         System.out.print("Кількість місць, які потрібно перевірити: ");
@@ -104,7 +104,7 @@ public class Main {
         }
     }
 
-    private static void printSeatingArrangement(Cinema cinema, Scanner scanner) {
+    static void printSeatingArrangement(Cinema cinema, Scanner scanner) {
         System.out.print("Номер залу для друку схеми розміщення місць: ");
         int hallNumber = scanner.nextInt();
 

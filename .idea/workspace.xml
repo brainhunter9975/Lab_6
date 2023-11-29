@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0eb74d75-00a3-4fd1-9e60-acc5a014fe8e" name="Changes" comment="v 0.3 Setting up initial methods for class Main:&#10;main for user interaction with program,&#10;bookSeats for book seat,&#10;cancelBooking for cancel book,&#10;checkAvailability for checking if available to book,&#10;printSeatingArrangement for print seats map of hall" />
+    <list default="true" id="0eb74d75-00a3-4fd1-9e60-acc5a014fe8e" name="Changes" comment="v 0.5 Added class CinemaTest to test class Cinema and added all tests for Cinema class methods">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,7 +42,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "C:/Users/Asus/IdeaProjects/Lab_6/src/main/java/org/example/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/Asus/IdeaProjects/Lab_6/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -70,13 +79,47 @@
       <option name="project" value="LOCAL" />
       <updated>1701261540651</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="v 0.3 Setting up initial methods for class Main:&#10;main for user interaction with program,&#10;bookSeats for book seat,&#10;cancelBooking for cancel book,&#10;checkAvailability for checking if available to book,&#10;printSeatingArrangement for print seats map of hall">
+      <option name="closed" value="true" />
+      <created>1701271863533</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701271863533</updated>
+    </task>
+    <task id="LOCAL-00005" summary="v 0.4 Added &quot;bonus&quot; methods findBestAvailable for finding best available row of seats, &#10;autoBook for autobooking results from revious method, added option and method autBookSeats in main class.">
+      <option name="closed" value="true" />
+      <created>1701275491615</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701275491615</updated>
+    </task>
+    <task id="LOCAL-00006" summary="v 0.5 Added class CinemaTest to test class Cinema and added all tests for Cinema class methods">
+      <option name="closed" value="true" />
+      <created>1701279163659</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701279163659</updated>
+    </task>
+    <task id="LOCAL-00007" summary="v 0.5 Added class CinemaTest to test class Cinema and added all tests for Cinema class methods">
+      <option name="closed" value="true" />
+      <created>1701279261214</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701279261214</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v 0.1 Create additional class Cinema" />
     <MESSAGE value="v 0.2 Setting up initial methods for class Cinema:&#10;initializeSeats for initialize seats,&#10;bookSeats for mark booked seats,&#10;cancelBooking for cancel booking,&#10;checkAvailability to check if available to book,&#10;printSeatingArrangement to output map of seats" />
     <MESSAGE value="v 0.3 Setting up initial methods for class Main:&#10;main for user interaction with program,&#10;bookSeats for book seat,&#10;cancelBooking for cancel book,&#10;checkAvailability for checking if available to book,&#10;printSeatingArrangement for print seats map of hall" />
-    <option name="LAST_COMMIT_MESSAGE" value="v 0.3 Setting up initial methods for class Main:&#10;main for user interaction with program,&#10;bookSeats for book seat,&#10;cancelBooking for cancel book,&#10;checkAvailability for checking if available to book,&#10;printSeatingArrangement for print seats map of hall" />
+    <MESSAGE value="v 0.4 Added &quot;bonus&quot; methods findBestAvailable for finding best available row of seats, &#10;autoBook for autobooking results from revious method, added option and method autBookSeats in main class." />
+    <MESSAGE value="v 0.5 Added class CinemaTest to test class Cinema and added all tests for Cinema class methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="v 0.5 Added class CinemaTest to test class Cinema and added all tests for Cinema class methods" />
   </component>
 </project>
